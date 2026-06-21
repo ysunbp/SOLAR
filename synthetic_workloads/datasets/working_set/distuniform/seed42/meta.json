@@ -1,0 +1,21 @@
+{
+  "workload_type": "working_set",
+  "params": {
+    "n_topics": 15,
+    "items_per_topic": 10,
+    "query_length": 500,
+    "topic_distribution": "uniform",
+    "zipf_param": 1.2,
+    "dim": 128,
+    "intra_topic_std": 0.1,
+    "query_noise": 0.05,
+    "seed": 42
+  },
+  "n_items": 150,
+  "n_queries": 500,
+  "n_stream_steps": 500,
+  "embedding_dim": 128,
+  "has_prefill": false,
+  "n_prefill_items": 0,
+  "n_warmup_steps": null
+}

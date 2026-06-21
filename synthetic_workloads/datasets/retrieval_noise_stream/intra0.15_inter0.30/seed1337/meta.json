@@ -1,0 +1,25 @@
+{
+  "workload_type": "retrieval_noise_stream",
+  "params": {
+    "mode": "stream",
+    "n_topics": 50,
+    "items_per_topic": 100,
+    "intra_topic_std": 0.15,
+    "inter_topic_sep": 0.3,
+    "query_length": 1000,
+    "relevant_per_query": 3,
+    "dim": 128,
+    "query_noise": 0.05,
+    "seed": 1337,
+    "total_pool_size": 5000,
+    "num_unique_gt_items": 2238,
+    "n_warmup_steps": 5000
+  },
+  "n_items": 5000,
+  "n_queries": 6000,
+  "n_stream_steps": 6000,
+  "embedding_dim": 128,
+  "has_prefill": false,
+  "n_prefill_items": 0,
+  "n_warmup_steps": 5000
+}

@@ -1,0 +1,19 @@
+{
+  "workload_type": "cycling",
+  "params": {
+    "n_topics": 50,
+    "items_per_topic": 5,
+    "dim": 128,
+    "n_cycles": 10,
+    "intra_topic_std": 0.1,
+    "query_noise": 0.05,
+    "seed": 1337
+  },
+  "n_items": 250,
+  "n_queries": 500,
+  "n_stream_steps": 500,
+  "embedding_dim": 128,
+  "has_prefill": false,
+  "n_prefill_items": 0,
+  "n_warmup_steps": null
+}

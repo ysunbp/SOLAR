@@ -1,0 +1,29 @@
+{
+  "workload_type": "topic_drift",
+  "params": {
+    "n_topics_total": 30,
+    "n_active_per_phase": 5,
+    "phase_length": 100,
+    "n_phases": 6,
+    "overlap": 1,
+    "items_per_topic": 8,
+    "dim": 128,
+    "intra_topic_std": 0.1,
+    "query_noise": 0.05,
+    "seed": 42,
+    "phase_boundaries": [
+      100,
+      200,
+      300,
+      400,
+      500
+    ]
+  },
+  "n_items": 240,
+  "n_queries": 600,
+  "n_stream_steps": 600,
+  "embedding_dim": 128,
+  "has_prefill": false,
+  "n_prefill_items": 0,
+  "n_warmup_steps": null
+}
