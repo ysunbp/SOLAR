@@ -1,0 +1,242 @@
+{
+    "task": {
+        "Long-Long": {
+            "summary": {
+                "dataset_min": {
+                    "HelloBench-Academic&Knowledge-Writing": 0.625,
+                    "HelloBench-Creative&Design": 0.0,
+                    "LexEval-Judge": 0.0,
+                    "WritingBench-Academic&Engineering": 1,
+                    "WritingBench-Creative&Design": 1,
+                    "WritingBench-Politics&Law": 1
+                },
+                "dataset_max": {
+                    "HelloBench-Academic&Knowledge-Writing": 1.0,
+                    "HelloBench-Creative&Design": 1.0,
+                    "LexEval-Judge": 0.43559718484168736,
+                    "WritingBench-Academic&Engineering": 9,
+                    "WritingBench-Creative&Design": 9,
+                    "WritingBench-Politics&Law": 9
+                },
+                "dataset_mu": {
+                    "HelloBench-Academic&Knowledge-Writing": 0.8393382352941177,
+                    "HelloBench-Creative&Design": 0.7871010638297874,
+                    "LexEval-Judge": 0.06893909285802197,
+                    "WritingBench-Academic&Engineering": 6.6286764705882355,
+                    "WritingBench-Creative&Design": 6.396802325581396,
+                    "WritingBench-Politics&Law": 6.5823170731707314
+                },
+                "dataset_sigma": {
+                    "HelloBench-Academic&Knowledge-Writing": 0.08694203035722968,
+                    "HelloBench-Creative&Design": 0.1995697288306394,
+                    "LexEval-Judge": 0.1322704713850254,
+                    "WritingBench-Academic&Engineering": 1.918846470586342,
+                    "WritingBench-Creative&Design": 1.745706096362819,
+                    "WritingBench-Politics&Law": 1.8722764276184818
+                }
+            }
+        },
+        "Short-Short": {
+            "summary": {
+                "dataset_min": {
+                    "JRE-L": 2,
+                    "LexEval-QA": 0.0,
+                    "NFCats": 1
+                },
+                "dataset_max": {
+                    "JRE-L": 8,
+                    "LexEval-QA": 0.3616236123342547,
+                    "NFCats": 5
+                },
+                "dataset_mu": {
+                    "JRE-L": 7.85,
+                    "LexEval-QA": 0.12312124506737952,
+                    "NFCats": 4.4325
+                },
+                "dataset_sigma": {
+                    "JRE-L": 0.4716990566028302,
+                    "LexEval-QA": 0.0673206327681146,
+                    "NFCats": 0.9749070468511344
+                }
+            }
+        },
+        "Short-Long": {
+            "summary": {
+                "dataset_min": {
+                    "HelloBench-Academic&Knowledge-QA": 0.32142857142857145,
+                    "JuDGE": 0,
+                    "WritingPrompts": 0.02615233736515201
+                },
+                "dataset_max": {
+                    "HelloBench-Academic&Knowledge-QA": 1.0,
+                    "JuDGE": 10,
+                    "WritingPrompts": 0.3184997922906895
+                },
+                "dataset_mu": {
+                    "HelloBench-Academic&Knowledge-QA": 0.911752491694352,
+                    "JuDGE": 7.4325,
+                    "WritingPrompts": 0.22449578221905037
+                },
+                "dataset_sigma": {
+                    "HelloBench-Academic&Knowledge-QA": 0.1048513798087399,
+                    "JuDGE": 1.4214231424878379,
+                    "WritingPrompts": 0.04788928611625294
+                }
+            }
+        },
+        "Long-Short": {
+            "summary": {
+                "dataset_min": {
+                    "DialSim-bigbang": 0,
+                    "DialSim-friends": 0,
+                    "DialSim-theoffice": 0,
+                    "IdeaBench": 0,
+                    "LexEval-Summarization": 0.04999999511250048,
+                    "LimitGen-Syn": 0,
+                    "Locomo": 0
+                },
+                "dataset_max": {
+                    "DialSim-bigbang": 1,
+                    "DialSim-friends": 1,
+                    "DialSim-theoffice": 1,
+                    "IdeaBench": 9,
+                    "LexEval-Summarization": 0.5032258020362124,
+                    "LimitGen-Syn": 4,
+                    "Locomo": 1.0
+                },
+                "dataset_mu": {
+                    "DialSim-bigbang": 0.18627450980392157,
+                    "DialSim-friends": 0.19607843137254902,
+                    "DialSim-theoffice": 0.21568627450980393,
+                    "IdeaBench": 6.123333333333333,
+                    "LexEval-Summarization": 0.2317733107335974,
+                    "LimitGen-Syn": 1.2966666666666666,
+                    "Locomo": 0.43918538805036744
+                },
+                "dataset_sigma": {
+                    "DialSim-bigbang": 0.38932803238558394,
+                    "DialSim-friends": 0.3970285633591488,
+                    "DialSim-theoffice": 0.4112975875177065,
+                    "IdeaBench": 1.4194325939927153,
+                    "LexEval-Summarization": 0.08930309891624393,
+                    "LimitGen-Syn": 1.4658293064185732,
+                    "Locomo": 0.4640817725267295
+                }
+            }
+        }
+    },
+    "domain": {
+        "Academic&Knowledge": {
+            "summary": {
+                "dataset_min": {
+                    "HelloBench-Academic&Knowledge-QA": 0.0,
+                    "HelloBench-Academic&Knowledge-Writing": 0.0,
+                    "IdeaBench": 0,
+                    "JRE-L": 0,
+                    "LimitGen-Syn": 0,
+                    "WritingBench-Academic&Engineering": 1
+                },
+                "dataset_max": {
+                    "HelloBench-Academic&Knowledge-QA": 1.0,
+                    "HelloBench-Academic&Knowledge-Writing": 1.0,
+                    "IdeaBench": 9,
+                    "JRE-L": 8,
+                    "LimitGen-Syn": 5,
+                    "WritingBench-Academic&Engineering": 9
+                },
+                "dataset_mu": {
+                    "HelloBench-Academic&Knowledge-QA": 0.8383340254706534,
+                    "HelloBench-Academic&Knowledge-Writing": 0.8253676470588235,
+                    "IdeaBench": 5.9825,
+                    "JRE-L": 7.6925,
+                    "LimitGen-Syn": 1.375,
+                    "WritingBench-Academic&Engineering": 6.573529411764706
+                },
+                "dataset_sigma": {
+                    "HelloBench-Academic&Knowledge-QA": 0.14641772697797348,
+                    "HelloBench-Academic&Knowledge-Writing": 0.09935899358831071,
+                    "IdeaBench": 1.4973956557970909,
+                    "JRE-L": 0.9914351970754315,
+                    "LimitGen-Syn": 1.4677789343085694,
+                    "WritingBench-Academic&Engineering": 1.9445714518854504
+                }
+            }
+        },
+        "Open-Domain": {
+            "summary": {
+                "dataset_min": {
+                    "DialSim-bigbang": 0,
+                    "DialSim-friends": 0,
+                    "DialSim-theoffice": 0,
+                    "HelloBench-Creative&Design": 0.0,
+                    "Locomo": 0,
+                    "NFCats": 1,
+                    "WritingBench-Creative&Design": 1,
+                    "WritingPrompts": 0.019652800524074678
+                },
+                "dataset_max": {
+                    "DialSim-bigbang": 1,
+                    "DialSim-friends": 1,
+                    "DialSim-theoffice": 1,
+                    "HelloBench-Creative&Design": 1.0,
+                    "Locomo": 1,
+                    "NFCats": 5,
+                    "WritingBench-Creative&Design": 9,
+                    "WritingPrompts": 0.3009784401102524
+                },
+                "dataset_mu": {
+                    "DialSim-bigbang": 0.1568627450980392,
+                    "DialSim-friends": 0.23529411764705882,
+                    "DialSim-theoffice": 0.21568627450980393,
+                    "HelloBench-Creative&Design": 0.7660756501182034,
+                    "Locomo": 0.43739903244093,
+                    "NFCats": 4.546666666666667,
+                    "WritingBench-Creative&Design": 6.461240310077519,
+                    "WritingPrompts": 0.22139818848118872
+                },
+                "dataset_sigma": {
+                    "DialSim-bigbang": 0.36367131354885107,
+                    "DialSim-friends": 0.42418250299576343,
+                    "DialSim-theoffice": 0.4112975875177065,
+                    "HelloBench-Creative&Design": 0.19389989280537495,
+                    "Locomo": 0.46130109505314704,
+                    "NFCats": 0.8452744458984247,
+                    "WritingBench-Creative&Design": 1.5861713485314972,
+                    "WritingPrompts": 0.0531793409230923
+                }
+            }
+        },
+        "Legal": {
+            "summary": {
+                "dataset_min": {
+                    "JuDGE": 1,
+                    "LexEval-Judge": 0.0,
+                    "LexEval-QA": 0.0,
+                    "LexEval-Summarization": 0.0,
+                    "WritingBench-Politics&Law": 1
+                },
+                "dataset_max": {
+                    "JuDGE": 10,
+                    "LexEval-Judge": 0.42372880887182207,
+                    "LexEval-QA": 0.3692307652260355,
+                    "LexEval-Summarization": 0.4749999956570313,
+                    "WritingBench-Politics&Law": 9
+                },
+                "dataset_mu": {
+                    "JuDGE": 7.3675,
+                    "LexEval-Judge": 0.0630849363991153,
+                    "LexEval-QA": 0.12201772009816057,
+                    "LexEval-Summarization": 0.219496517250544,
+                    "WritingBench-Politics&Law": 6.685975609756097
+                },
+                "dataset_sigma": {
+                    "JuDGE": 1.4654158965972766,
+                    "LexEval-Judge": 0.12718950949197658,
+                    "LexEval-QA": 0.06710966320652625,
+                    "LexEval-Summarization": 0.09151764391456972,
+                    "WritingBench-Politics&Law": 1.7095994108991088
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "llm_provider": "openai",
+    "llm_config": {
+        "model": "gpt-4o-mini",
+        "temperature": 0.1,
+        "max_tokens": 512
+    },
+    "embedder_provider": "huggingface",
+    "embedder_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "retrieve_k": 5,
+    "lambda_cost": 5.0,
+    "lipschitz_L": 2.0,
+    "threshold_mode": "adaptive",
+    "adaptive_window": 30,
+    "min_threshold": 0.1,
+    "max_threshold": 5.0,
+    "capacity": 50,
+    "novelty_weight": 0.6,
+    "density_weight": 0.4,
+    "optimistic_prior": true,
+    "ts_novelty_bonus": 0.3
+}

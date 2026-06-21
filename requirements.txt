@@ -1,0 +1,25 @@
+# Core
+numpy>=1.24
+scipy>=1.10
+python-dotenv>=1.0
+pydantic>=2.0
+tqdm>=4.65
+regex>=2023.0
+
+# LLM / API client (OpenAI-compatible endpoints)
+openai>=1.3
+httpx>=0.24
+
+# Embeddings & retrieval
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7
+transformers>=4.36
+
+# Text metrics / preprocessing
+nltk>=3.8
+
+# Datasets (HuggingFace; for fetching MemoryBench QA splits)
+datasets>=2.14
+
+# Plotting (synthetic-workload result figures)
+matplotlib>=3.7
