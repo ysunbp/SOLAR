@@ -1,0 +1,84 @@
+{
+  "cycling_Greedy (LRU)": {
+    "avg_reward": 0.5007610672189892,
+    "final_reward": 0.5345335666773486,
+    "cumulative_regret": 499.23893278101093,
+    "regret_exponent": 0.927562496724413,
+    "is_sublinear": 1.0,
+    "update_count": 1000
+  },
+  "cycling_LMU (\u03bb=5)": {
+    "avg_reward": 0.5517251395706684,
+    "final_reward": 0.5005590310159841,
+    "cumulative_regret": 448.2748604293314,
+    "regret_exponent": 0.8424083260325871,
+    "is_sublinear": 1.0,
+    "update_count": 192
+  },
+  "cycling_LMU (\u03bb=20)": {
+    "avg_reward": 0.5469417383016218,
+    "final_reward": 0.5583781396233826,
+    "cumulative_regret": 453.0582616983779,
+    "regret_exponent": 0.8200003262169684,
+    "is_sublinear": 1.0,
+    "update_count": 99
+  },
+  "cycling_Thompson Sampling": {
+    "avg_reward": 0.375655553832024,
+    "final_reward": 0.3899833145463708,
+    "cumulative_regret": 624.3444461679761,
+    "regret_exponent": 0.9376526395504627,
+    "is_sublinear": 1.0,
+    "update_count": 1000
+  },
+  "cycling_IG-UCB (aggressive)": {
+    "avg_reward": 0.3710094136382485,
+    "final_reward": 0.3804740319284143,
+    "cumulative_regret": 628.9905863617513,
+    "regret_exponent": 0.9069726537000425,
+    "is_sublinear": 1.0,
+    "update_count": 1000
+  },
+  "burst_Greedy (LRU)": {
+    "avg_reward": 0.9411529493906267,
+    "final_reward": 0.9391269308100075,
+    "cumulative_regret": 58.84705060937326,
+    "regret_exponent": 0.7910340531915913,
+    "is_sublinear": 1.0,
+    "update_count": 1000
+  },
+  "burst_LMU (\u03bb=10)": {
+    "avg_reward": 0.9469358960954328,
+    "final_reward": 0.9632242653217482,
+    "cumulative_regret": 53.064103904567126,
+    "regret_exponent": 0.49390253030384657,
+    "is_sublinear": 1.0,
+    "update_count": 38
+  },
+  "burst_Thompson Sampling": {
+    "avg_reward": 0.9411529493906267,
+    "final_reward": 0.9391269308100075,
+    "cumulative_regret": 58.84705060937326,
+    "regret_exponent": 0.7910340531915913,
+    "is_sublinear": 1.0,
+    "update_count": 991
+  },
+  "switching_Greedy": {
+    "task_cost": 2.776313495856167,
+    "switching_cost": 21.783516304237402,
+    "total_cost": 111.69389501704318,
+    "num_updates": 500
+  },
+  "switching_LMU (\u03bb=5)": {
+    "task_cost": 10.743532796880002,
+    "switching_cost": 0.8988121775341227,
+    "total_cost": 15.237593684550616,
+    "num_updates": 6
+  },
+  "switching_LMU (\u03bb=20)": {
+    "task_cost": 18.72110128382946,
+    "switching_cost": 0.9029470501624204,
+    "total_cost": 23.23583653464156,
+    "num_updates": 6
+  }
+}
